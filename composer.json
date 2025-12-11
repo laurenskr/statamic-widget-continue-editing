@@ -1,8 +1,8 @@
 {
-    "name": "webographen/statamic-widget-continue-editing",
+    "name": "laurenskr/statamic-widget-continue-editing",
     "license": "MIT",
     "type": "statamic-addon",
-    "description": "List of last edited entries in Statamic control panel",
+    "description": "List of last edited entries in Statamic control panel, fork of webographen/statamic-widget-continue-editing",
     "autoload": {
       "psr-4": {
         "Webographen\\ContinueEditing\\": "src"
@@ -11,7 +11,7 @@
     "extra": {
       "statamic": {
         "name": "Statamic Widget: Continue Editing",
-        "description": "List of last edited entries in control panel"
+        "description": "List of last edited entries in control panel (NL)"
       },
       "laravel": {
         "providers": [
