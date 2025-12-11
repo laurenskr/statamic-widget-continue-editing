@@ -4,7 +4,7 @@
             <div class="w-6 h-6 mr-2 text-gray-800 dark:text-dark-175">
                 @cp_svg('icons/light/content-writing')
             </div>
-            <span>{{ __('Continue Editing') }}</span>
+            <span>{{ __('Laatste bewerkingen') }}</span>
         </h2>
     </header>
     <div class="p-4">
@@ -18,7 +18,7 @@
                     </td>
                     <td class="py-1 text-xs align-top px-2 text-center">
                         <span class="mt-px ml-2 text-white badge-sm bg-gray-700">
-                            {{ $result->collection()->id() }}
+                            {{ $result->collection()->title() }}
                         </span>
                     </td>
                     <td class="py-1 text-xs align-top text-right text-gray-700">
